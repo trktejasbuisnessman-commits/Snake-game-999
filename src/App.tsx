@@ -4,6 +4,7 @@
  */
 
 import React, { useEffect, useRef, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { ChronoRecoilEngine, GameStats, ShipSkin } from './game/ChronoRecoilEngine';
 import { sound } from './game/audio';
 import { GameHUD } from './components/GameHUD';
@@ -527,6 +528,9 @@ export default function App() {
           </button>
         </div>
       </footer>
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
