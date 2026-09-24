@@ -1,0 +1,6 @@
+{
+  "name": "Chrono Recoil & Arcade Design Lab",
+  "description": "Original browser arcade game featuring time-echo mechanics, dynamic polarity shifting, and an interactive 30-concept game design laboratory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
